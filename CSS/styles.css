@@ -49,11 +49,6 @@
     text-align: center;
     margin-top: 50px;
 }
-.row1{
-    padding: 5px;
-    width: 33.33%;
-
-}
 .contact-us{
     background-image: url("../images/c_image.jpg");
     background-repeat: no-repeat;
@@ -61,6 +56,17 @@
     background-position: center;
     margin-top: 50px;
 }
+.col-md-6{
+    background: transparent;
+}
 .text-center5{
+    color: white;
     text-align: center;
+    padding-top: 50px;
+}
+.text-center6{
+    text-align: center;
+}
+.transparent{
+    background-color: transparent;
 }
