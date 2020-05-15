@@ -117,13 +117,13 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="name"></label>
-                                <input class="transparent" type="text" id="name" placeholder="Name" required>
+                                <input class="transparent" pattern="[A- Za-z]{1,32}"  type="text" id="name" placeholder="Name" required>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="email"></label>
-                                <input class="transparent" type="text" id="year" placeholder="Email" required>
+                                <input class="transparent" pattern="[/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/]{1,20}" type="text" placeholder="Email" required />
                             </div>
                         </div>
                     </div>
@@ -134,6 +134,5 @@
                 </form>
             </div>
         </div>
-    </section>
     </body>
 </html>
