@@ -26,7 +26,7 @@
 }
 #services-section{
     background-image: url("../images/s_image.jpg");
-    background-image: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
@@ -53,4 +53,11 @@
     padding: 5px;
     width: 33.33%;
 
+}
+.contact-us{
+    background-image: url("../images/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
 }
