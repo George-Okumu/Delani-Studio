@@ -42,7 +42,15 @@
     text-align: center;
     margin-top: 50px;
 }
+.hide{
+    display: none;
+}
 .portfolio{
     text-align: center;
     margin-top: 50px;
+}
+.row1{
+    padding: 5px;
+    width: 33.33%;
+
 }
