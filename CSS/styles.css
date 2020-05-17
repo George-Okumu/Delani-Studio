@@ -97,3 +97,13 @@
     padding-top: 50%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+footer{
+    text-align: center;
+}
+footer,img{
+    padding: 5px;
+    padding-top: 30px;
+}
+footer,p{
+    padding-top: 10px;
+}
