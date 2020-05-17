@@ -72,9 +72,16 @@
 .text-center6{
     text-align: center;
 }
+.text-center6{
+    text-align: center;
+}
 .transparent{
     background-color: transparent;
+    color: white;
 }
+.transparent::-webkit-input-placeholder { 
+    color: white; 
+  }
 
 #mouse-hover,#mouse-hover1,#mouse-hover2,#mouse-hover3,#mouse-hover4,#mouse-hover5,#mouse-hover6,#mouse-hover7{
     display: none;
