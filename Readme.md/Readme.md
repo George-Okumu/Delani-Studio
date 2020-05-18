@@ -12,6 +12,7 @@ CSS,FontAwesome
 
 
 ## Link to github-pages
+https://george-okumu.github.io/Delani-Studio/
 
  ## Contribution
  1.Fork it!
