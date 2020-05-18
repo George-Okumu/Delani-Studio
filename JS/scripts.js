@@ -89,3 +89,20 @@ $(document).ready(function(){
       });
 
   });
+
+  $(document).ready(function() {
+    $("form#delani-form").on('submit',function(event){
+      event.preventDefault();
+      let name = $("input#name").val();
+      let email = $("input#email").val();
+      let message = $("textarea#message").val();
+
+      if ($("input#name").val() && $("input#email").val() && $("textarea#message").val()){
+          alert ("Hello " + name + ",your message have been received.Thank you for contacting us.Thank you for reaching to us.We love you.");
+      }
+      else {
+          alert("Ooops!Kindly complete filling the form,Thank you.");
+      }
+
+  });
+  });
