@@ -1,7 +1,7 @@
-#Author
+# Author
 George Okumu@dev
 
-##Project Name
+## Project Name
 Delani Studio
 
 ## Languages used
