@@ -98,7 +98,7 @@ $(document).ready(function(){
       let message = $("textarea#message").val();
 
       if ($("input#name").val() && $("input#email").val() && $("textarea#message").val()){
-          alert ("Hello " + name + ",your message have been received.Thank you for contacting us.Thank you for reaching to us.We love you.");
+          alert ("Hello " + name + ",your message have been received.Thank you for reaching to us.We love you.");
       }
       else {
           alert("Ooops!Kindly complete filling the form,Thank you.");
