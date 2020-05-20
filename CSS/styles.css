@@ -75,12 +75,24 @@
 .text-center6{
     text-align: center;
 }
-.transparent{
+.form-control{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+}
+.col-md-6{
+    padding-left: 50px;
+}
+.form-control1{
     background-color: transparent;
     color: white;
 }
-.transparent::-webkit-input-placeholder { 
-    color: white; 
+
+.form-control1::-webkit-input-placeholder { 
+    color: white;
+  }
+.form-control::-webkit-input-placeholder { 
+    color: white;
   }
 
 #mouse-hover,#mouse-hover1,#mouse-hover2,#mouse-hover3,#mouse-hover4,#mouse-hover5,#mouse-hover6,#mouse-hover7{
