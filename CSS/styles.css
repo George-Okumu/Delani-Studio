@@ -75,7 +75,7 @@
 .text-center6{
     text-align: center;
 }
-.form-control{
+.required{
     background-color: transparent;
     color: white;
     width: 100%;
@@ -88,10 +88,7 @@
     color: white;
 }
 
-.form-control1::-webkit-input-placeholder { 
-    color: white;
-  }
-.form-control::-webkit-input-placeholder { 
+.required::-webkit-input-placeholder { 
     color: white;
   }
 

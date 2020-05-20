@@ -90,14 +90,14 @@ $(document).ready(function(){
 
   });
 
-  $(document).ready(function() {
+  /*$(document).ready(function() {
     $("form#delani-form").on('submit',function(event){
       event.preventDefault();
-      let name = $("input#name").val();
-      let email = $("input#email").val();
-      let message = $("textarea#message").val();
+      let name = $("input#mce_FNAME").val();
+      let email = $("input#mce_EMAIL").val();
+      let message = $("textarea#mce_MMERGE2").val();
 
-      if ($("input#name").val() && $("input#email").val() && $("textarea#message").val()){
+      if ($("input#mce_FNAME").val() && $("input#mce_EMAIL").val() && $("textarea#mce_MMERGE2").val()){
           alert ("Hello " + name + ",your message have been received.Thank you for reaching to us.We love you.");
       }
       else {
@@ -105,4 +105,4 @@ $(document).ready(function(){
       }
 
   });
-  });
+  });*/
